@@ -43,9 +43,10 @@ print("Matches" if grok.matches(input) else "Doens't Match")
 
 For more usage, see the _specs/example_spec.py_.
 
-Installation
-------------
+Running Tests
+-------------
 
 ```bash
-$ pip install grok
+$ pip install -r dev-requirements.txt
+$ pspec specs
 ```
