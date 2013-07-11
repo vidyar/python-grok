@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sherzberg/python-grok.png?branch=master)](https://travis-ci.org/sherzberg/python-grok)
+
 GROK
 ====
 
