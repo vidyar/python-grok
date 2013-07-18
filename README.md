@@ -21,7 +21,7 @@ Here are things to do:
 - [ ] Setup Travis-CI
 - [x] Grok.add\_pattern(name, pattern)
 - [x] Grok.add\_patterns\_from\_file(filename)
-- [ ] Grok.compile(pattern)
+- [x] Grok.compile(pattern)
 - [ ] Grok.discover(input)
 - [ ] Grok.match(text)
 - [ ] Release to pypi
@@ -37,7 +37,7 @@ grok.add_patterns_from_file('/path/to/my/patterns')
 
 grok.compile('%{GREEDYDATA} - %{NUMBER}')
 
-input = "My Fancy Input 9999"
+input = "My Fancy Input - 9999"
 
 print(input)
 print("Matches" if grok.matches(input) else "Doens't Match")
