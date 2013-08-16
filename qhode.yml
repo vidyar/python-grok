@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+  - "pypy"
+
+script: nosetests tests/
+notifications:
+  email:
+    recipients:
+      -vidyar@qhode.com
+    on_success: change 
+    on_failure: change
